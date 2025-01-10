@@ -1,0 +1,10 @@
+# Navigate to the directory where you want to initialize the repository
+cd "path\to\your\project"
+
+# Initialize a Git repository (optional if not done already)
+git init
+
+# Create a new GitHub repository
+gh repo create <repo-name> --public --source . --remote origin
+
+# Replace <repo-name> with your desired repository name
