@@ -8,3 +8,5 @@ git init
 gh repo create <repo-name> --public --source . --remote origin
 
 # Replace <repo-name> with your desired repository name
+
+#git push --set-upstream origin main
